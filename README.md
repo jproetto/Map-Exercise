@@ -1,6 +1,6 @@
 # Title of the Project
 
-Central Park Rider
+Map Exercise - Central Park Rider
 
 ## Description of the Project
 
