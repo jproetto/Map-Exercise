@@ -8,8 +8,7 @@ When clicking the button on the top left of the page, the rider dynamically cycl
 
 ## How to Run 
 
-Step 1: Within the .js file, input your own mapbox accessToken within the quotations on line 8
-Afterward, drag the .html file into the browser, and click on the button that reads "Click to Move Rider Around the Park and Back!" to get the rider to start riding.
+Step 1: Within the .js file, input your own mapbox accessToken within the quotations on line 8. Afterward, drag the .html file into the browser, and click on the button that reads "Click to Move Rider Around the Park and Back!" to get the rider to start riding.
 Step 2: In line 11, feel free to update the properties of style, center and zoom. There are in-line notes next to each property explaining what each controls.
 Step 3: In line 19 and 20, we create a marker to add to the map (in my case it is an image of a bicycle rider). The starting coordinate for the marker, when the application is loaded, is controled by lng and lat coordinates in line 23. The image for the marker is controlled in the .css file within the .bicycle-marker class. Updating the actual image is controlled by the background-image property's url value - update it to whatever image you like within the quotations. The size of the marker is controlled by the height and width properties.
 Step 4: The route array in line 27 hold the coordinates your marker will move along. If you are reversing back at the end of your journey, you will need to include the coordinate in line 23 as index 0 in the route array (more notes provided on line 28). 
